@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(0deg, rgba(209, 79, 4, 1) 0%, rgba(108, 57, 247, 1) 100%);
+}
+
+.container{
+text-align:center;
+}
+
+.card{
+background:white;
+padding:40px;
+border-radius:15px;
+width:350px;
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+.foto{
+width:120px;
+height:120px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:10px;
+}
+
+p{
+color:#555;
+font-size:14px;
+}
+
+.botoes{
+margin-top:20px;
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.btn{
+text-decoration:none;
+padding:10px;
+border-radius:8px;
+color:white;
+font-weight:bold;
+transition:0.3s;
+}
+
+.insta{
+background:#E1306C;
+}
+
+.twitch{
+background:#9146FF;
+}
+
+.github{
+background:#333;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+footer{
+margin-top:20px;
+font-size:14px;
+}
